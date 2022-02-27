@@ -1,0 +1,660 @@
+/*!
+ * CSS
+ */
+
+
+
+/*!
+ * 
+body {
+    background-repeat:no-repeat;
+    background-color:#EEEEEE;
+}
+
+html {
+    background-repeat:no-repeat;                //////// Mettre fond en gris (intranet)
+    background-color:#EEEEEE;
+}
+
+#testttt {
+    background-repeat:no-repeat;
+    background-color:#EEEEEE;
+}
+ *
+ */
+ 
+ 
+ 
+/*!
+ * 
+ * Page Astreinte.php
+ *
+ */
+ 
+ 
+  /* Colonnes titre */
+#ColTitre1{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+ vertical-align:middle;
+ border-left:1px solid #000000 !important; 
+ border-top:1px solid #000000 !important; 
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1b{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+ vertical-align:middle;
+ border-top:1px solid #000000 !important; 
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1c{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+ vertical-align:middle;
+ border-top:1px solid #000000 !important;
+ border-right:1px solid #000000 !important; 
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1d{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+ vertical-align:middle;
+ border-bottom:1px solid #000000 !important;
+ border-left:1px solid #000000 !important;
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1e{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+ vertical-align:middle;
+ border-bottom:1px solid #000000 !important;
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1ebis{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ vertical-align:middle;
+ border-bottom:1px solid #000000 !important;
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#ColTitre1f{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ vertical-align:middle;
+ border-bottom:1px solid #000000 !important;
+ border-right:1px solid #000000 !important;
+ text-align:middle;
+ padding-left: 8px;
+}
+
+#date_deplacdeb{
+ width: 110px;
+}
+
+#date_deplacfin{
+ width: 110px;
+}
+
+ 
+.ColTitre{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ border-left:1px solid #000000 !important; 
+ font-family:'Arial';
+ font-weight: bold;
+ font-size: 9pt;
+ padding-left: 14px;
+ padding-top:10px;
+}
+
+.ColTitre2{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ font-family:'Arial'; 
+ font-size: 9pt;
+ padding-top:10px;
+}
+
+.ColTitre2bis{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ font-family:'Arial'; 
+ font-size: 9pt;
+ font-weight: bold;
+ padding-top:10px;
+}
+
+.ColTitre3{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ border-right:1px solid #000000 !important; 
+ font-family:'Arial'; 
+ font-size: 9pt;
+ padding-top:10px;
+}
+
+.ColTitre4{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ border-left:1px solid #000000 !important;
+ border-bottom:1px solid #000000 !important;
+ font-family:'Arial'; 
+ font-size: 9pt;
+ font-weight: bold;
+ padding-left: 14px;
+}
+
+
+.ColTitre5{
+ vertical-align:middle;
+ text-align:left; 
+ color:#000000;
+ border-right:1px solid #000000 !important;
+ border-bottom:1px solid #000000 !important;
+ font-family:'Arial'; 
+ font-size: 9pt;
+ padding-top:15px;
+ padding-bottom: 5px;
+}
+
+ 
+ /* Seconde colonne bleue */
+.ColBleue{
+ background-color:#CCFFFF;
+ border-left:1px solid #000000 !important; 
+ text-align:center;
+}
+
+.ColBleueKm{
+ background-color:#CCFFFF;
+ border-left:1px solid #000000 !important; 
+ text-align:center;
+ padding-left:50px;
+ padding-right:50px;
+}
+
+.ColBleue2{
+ background-color:#CCFFFF;
+ border-left:1px solid #000000 !important;
+ border-right:1px solid #000000 !important; 
+}
+
+
+ /* colonne historique */
+
+#historiqA{
+ font-size: 10pt;
+ padding-top:10px;
+ padding-bottom:20px;
+}
+
+#historiqB{
+ font-size: 10pt;
+ padding-top:10px;
+ padding-bottom:20px;
+ padding-left: 24px;
+}
+
+#historiqueD{
+ font-size: 10pt;
+ text-decoration: underline;
+}
+
+.histo{
+ font-family:'Arial'; 
+ font-size: 9pt;
+}
+
+
+
+/* Button Envoyer */
+
+#ButtonAstreinte{
+ height: 45px;
+ width: 105px;
+ font-size: 11pt;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+
+
+/*!
+ *
+ * Page Hs.php
+ *
+ */
+ 
+
+ /* Début de formulaire - Référence, nom, clé agent */
+
+.HsNom{
+ font-family:'Arial';
+ border-left:1px solid #000000 !important;
+ text-align:center;
+}
+
+.HsRef{
+ font-family:'Arial';
+ border-left:1px solid #000000 !important;
+ border-top:1px solid #000000 !important;
+ text-align:center;
+}
+
+.HsStatut{
+ font-family:'Arial';
+ border-right:1px solid #000000 !important;
+ border-top:1px solid #000000 !important;
+ text-align:center;
+}
+
+.HsClé { 
+vertical-align:middle; 
+text-align:center; 
+border-bottom:none #000000; 
+border-top:1px solid #000000 !important; 
+border-right:1px solid #000000 !important; 
+font-weight:bold; 
+color:#000000; 
+font-family:'Arial'; 
+font-size:9pt; 
+background-color:#CCFFFF 
+}
+ 
+ 
+ /* colonne historique */
+ 
+#historiqueA{
+ font-size: 10pt;
+ padding-left:25px;
+}
+
+#historiqueB{
+ font-size: 10pt;
+ text-decoration: underline;
+ padding-left:25px;
+} 
+
+#historiqueC{
+ font-size: 10pt;
+ padding-left:15px;
+} 
+
+.hist1{
+ font-family:'Arial'; 
+ font-size: 9pt;
+ padding-left:25px;
+}
+ 
+.hist2{
+ font-size: 10pt;
+ padding-left:15px;
+}
+ 
+ 
+/*!
+ * 
+ * Page modifTech.php  -  page modifSpe - page habilitation
+ *
+ */
+ 
+  /* Texte */
+  
+#ModifT{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ font-weight: bold;
+}
+
+#ModifTec{
+ font-family:'Arial'; 
+ font-size: 10pt;
+ width: 75px;
+}
+
+.ModifT{
+ font-family:'Arial'; 
+ font-size: 10pt;
+}
+
+ /* Input Modifier valeur plage */
+ 
+#inputModifT{
+ width: 90px;
+}
+
+#date_J{
+ width: 100px;
+}
+
+
+ /* Input habilitation */
+ 
+#habiliProfil{
+ padding-right: 20px;
+}
+
+#habiliP{
+ width: 290px;
+}
+
+ /* Bouttons */
+ 
+#modifier{
+ height: 35px;
+ margin-left:5px;
+}
+
+#ButtonModifTech{
+ height: 45px;
+ width: 105px;
+ font-size: 11pt;
+}
+
+#ButtonModifTech2{
+ height: 45px;
+ width: 210px;
+ font-size: 11pt;
+}
+
+#ButtonModif{
+ height: 35px;
+ font-size: 11pt;
+}
+
+.ButtonModif2{
+  text-align: center;
+  padding-left: 110px;
+}
+
+#ButtonModif2{
+  text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+#purgeA{
+ height: 35px;
+ margin-left:5px;
+}
+
+.purgeB{
+ height: 35px;
+ width: 90px;
+ margin-left:5px;
+}
+ 
+#hspurger{
+ height: 35px;
+ margin-left:5px;
+} 
+
+
+/*!
+ * 
+ * Page menuRh.php - menuAgent.php -- menuResponsable.php - ListeAgent.php
+ *
+ */
+ 
+ /* Image */
+ 
+ .Menu{
+ border: solid 2px grey;
+ border-radius : 10px 10px;
+}
+
+.MenuRH2{
+ border: solid 2px grey;
+ border-radius : 10px 10px;
+}
+
+#listeRH{
+ margin-left: 50px;
+}
+
+#listeRH2{
+ margin-left: 37px;
+}
+
+#listeRH3{
+ margin-left: 23px;
+}
+
+img:hover{
+opacity:0.6;
+-moz-transition: opacity 0.6s;
+-webkit-transition: opacity 0.6s;
+}
+
+#RechercheResp{
+ margin-left: 77px;
+}
+
+#RechercheResp2{
+ margin-left: 53px;
+}
+
+
+ /* Bouttons */
+ 
+#ButtonRH{
+ height: 45px;
+ width: 105px;
+ font-size: 11pt;
+}
+
+
+/*!
+ * 
+ * Page listeDemandeRH.php
+ *
+ */
+ 
+ /* tableau */
+
+#tab{
+ color: black;
+}
+
+
+.ButtonR{
+  position: fixed;
+  bottom: 30px;
+  margin-left: 43%;
+}
+
+
+/*!
+ * 
+ * Page ajoutHabilitation.php -- suppHabilitation.php
+ *
+ */
+ 
+.profilHab{
+ height: 45px;
+ width: 105px;
+ margin-left:5px;
+}
+
+.supphab{
+ height: 45px;
+ width: 105px;
+ margin-left:5px;
+}
+
+
+/*!
+ * 
+ * Page rechercheD.php
+ *
+ */
+ 
+.dateDebR{
+ width: 130px;
+}
+
+.dateFinR{
+ width: 130px;
+}
+
+#buttonvalidRecherche{
+ width: 70px;
+ height: 32px;
+}
+
+
+/*!
+ * 
+ * Page impression.php -- rechercheD.php
+ *
+ */
+
+
+.buttonvalidRecherche2{
+ padding-left: 52px;
+}
+
+
+.cadreD{
+font-weight: bold;
+}
+
+.cadreDir{
+font-weight: bold;
+text-decoration: underline;
+}
+
+
+#cadreDirecteur
+{
+	border-right: 1px black solid;
+	border-left : 1px black solid;
+}
+
+#cadreDirecteur2
+{
+	border-right: 1px black solid;
+	border-left : 1px black solid;
+}
+
+#cadreDirecteur3
+{
+	border-right: 1px black solid;
+	border-left : 1px black solid;
+}
+
+#cadreDirecteur4
+{
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
+	border-left : 1px black solid;
+}
+
+
+
+
+
+/*!
+ * 
+ * Page statistique.php
+ *
+ */
+ 
+ 
+/*!.tableauxJava{
+  display: inline-block;
+ }*/
+ 
+ 
+#buttonStat{
+ width: 110px;
+ height: 34px;
+ margin-right: 10px;
+ margin-bottom: 43px;
+}
+
+#buttonStat2{
+ width: 124px;
+ height: 34px;
+  margin-right: 10px;
+ margin-bottom: 43px;
+}
+
+#buttonStat3{
+ width: 110px;
+ height: 34px;
+  margin-right: 10px;
+ margin-bottom: 23px;
+}
+
+#buttonStat4{
+ width: 124px;
+ height: 34px;
+  margin-right: 10px;
+ margin-bottom: 23px;
+}
+
+   
+#tailleColonne{
+    width: 310px;
+}
+	
+
+#boutonexport{
+ width: 124px;
+ height: 34px;
+ margin-left: 10px;
+ margin-bottom: 22px;
+}
+
+#boutonexport2{
+ width: 124px;
+ height: 34px;
+ margin-bottom: 23px;
+}
+
+
+#boutonexportPP{
+ width: 140px;
+ height: 34px;
+ margin-left: 10px;
+ margin-bottom: 22px;
+}
+
+
+
+#VersionMenu{
+ margin-left: 250px;
+ position : absolute;
+ font-size: x-small;
+ margin-top : -20px;
+}
+
+
+
+
+
+
